@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pomodoro Timer</title>
+		<link rel="stylesheet" type="text/css" href="styles/my_style.css">
+	</head>
+	<body>
+    <h1>Pomodoro</h1>
+    <div id='timeleft'>00:00</div>
+    <div>
+        <button id="pomodoro">Pomodoro Start</button>
+        <button id="shortBreak">Short Break</button>
+        <button id="stop">Stop</button>
+        <button id="reset">Reset</button>
+    </div>
+
+    <div>
+    <audio controls id="player_audio">
+      <source src="audio/alarm.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+    </audio>
+    </div>
+
+    <script src="scripts/jquery-2.1.1.js"></script>
+    <script src="scripts/my_pomo.js"></script>
+	</body>
+</html>
