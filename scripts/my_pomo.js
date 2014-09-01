@@ -23,6 +23,7 @@ function makeTimer(){
             clearInterval(this.intervalID);
             this.seconds_passed = 0;
             $("#timeleft").html('00:00');
+			$("#player_audio").get(0).currentTime = 0;
         },
 
         pad: function(str, max){
